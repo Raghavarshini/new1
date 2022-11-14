@@ -1,0 +1,45 @@
+.flex-container {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    /*flex-wrap: wrap; */   /* Uncomment this only if dynamically */
+  }
+  
+  .flex-container > div {
+    background-color: #ffffff;
+    color : black;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    font-size: 20px;
+    width: 25%;   /* change this only if more div tags are added or if div is added dynamically  */
+    height: 50px;
+    border: 2px solid black;
+
+  }
+
+  table {
+    width:100%;
+    text-align: center;
+  }
+
+  img {
+    width: 40px;
+    height: 40px;
+  }
+  .table-data{
+    font-size: 25px;
+  }  
+.table-data-mini {
+  font-size: 10px;
+}  
+/*   .flex-container > div:hover {
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 25%; 
+    height: 50px;
+    border: 2px solid black;
+  } */
+
+
